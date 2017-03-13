@@ -18,6 +18,7 @@
 * [ ] crear formularios
 * [ ] implementar funcionalidad de ordenación(por título, plataforma o género)
 * [ ] implementar funcionalidad de búsqueda(por título, plataforma o género)
+
 #####Crear página de detalles de videojuego
 * [ ] crear módulo html
 * [ ] crear routers(GET y POST)
@@ -38,10 +39,12 @@
 * [ ] crear formularios
 * [ ] implementar funcionalidad de editar perfil(incluido cambiar avatar)
 * [ ] implementar funcionalidad de eliminar perfil
+
 #####Actividad de Usuarios
 * [ ] implementar lista jugados
 * [ ] implementar lista de deseados
 * [ ] lista de actividad(últimas clasificaciones y media de clasificaciones , y últimos análisis)
+
 #####Perfil Público
 * [ ] crear módulo html
 * [ ] crear routers(GET)
