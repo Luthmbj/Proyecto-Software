@@ -34,6 +34,9 @@ class ImagenVideojuego(bbdd.Model):
 
 class UsuarioVideojuego(bbdd.Model):
   __table__ = bbdd.Model.metadata.tables['usuario_videojuego']
+  
+class Comentario(bbdd.Model):
+  __table__ = bbdd.Model.metadata.tables['comentario']
  
 
 

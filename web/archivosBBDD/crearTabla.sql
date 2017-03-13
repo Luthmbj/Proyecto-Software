@@ -131,3 +131,11 @@ CREATE TABLE IF NOT EXISTS acciones(
 	foreign key (id_usuario) references usuario (id)
 		on delete cascade on update no action	
 );
+CREATE TABLE IF NOT EXISTS comentario(
+	id int unsigned AUTO_INCREMENT PRIMARY key,
+	comentario varchar(1000) NOT null,
+	id_analisis int unsigned,
+	index (id_analisis),
+	foreign key (id_analisis) references analisis (id) 
+		on delete cascade on update no action
+);
