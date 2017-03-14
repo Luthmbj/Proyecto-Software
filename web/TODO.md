@@ -52,4 +52,4 @@
 * [ ] crear routers(GET): 1hora
 * [ ] implementar búsqueda de usuarios: 6horas
 
-####Total: 87.5horas
+#####Total: 87.5horas
